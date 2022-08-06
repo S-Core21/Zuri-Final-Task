@@ -1,0 +1,231 @@
+/* @font-face {
+    font-family: Averta regular;
+   src: url(./fonts/Avertaf/Averta\ Demo\ PE\ Extrabold\ Italic\ 800.otf);
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mainPage{
+    background-color: #fffafa;
+   padding-bottom: 40vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    margin: auto;
+    color: #614949;
+    gap: 5rem;
+}
+.one,.two,.three, .four,footer{
+    padding-inline:9rem;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+    width: 65%;
+    margin: auto;
+    margin-top: 4rem;
+    color: #614949;
+}
+.one h1{
+    margin-bottom: 3rem;
+    font-size: 32px;
+    font-weight: 800;
+}
+.one strong{
+    color: #e7332b;
+}
+.one p{
+    text-align: center;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.one section{
+    display: flex;
+    gap: 3rem;
+}
+.one button{
+    padding: 15px 50px;
+    font-weight: 400;
+}
+.new{
+    background-color: #e7332b;
+    border: none;
+    color: white;
+}
+.experience{
+    border: 1px solid #e7332b;
+    background-color: white;
+    color: #e7332b;
+}
+.new:hover{
+    background-color: white;
+    color: #e7332b;
+    border: 1px solid #e7332b;
+}
+.experience:hover{
+    background-color: #e7332b;
+    border: none;
+    color: white;
+}
+.two{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.two h5{
+    color: #e7332b;
+    font-size: 14px;
+    line-height: 24px;
+}
+.two h2{
+    font-size: 24px;
+    line-height: 40px;
+}
+.three{
+    line-height: 24px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.three div{
+    background-color: #fffafa;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 4rem 3rem;
+}
+.three img{
+    width: 100px;
+}
+.three a{
+    text-decoration: none;
+    color: #e7332b;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 7rem;
+}
+.four ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1rem;
+    font-weight: 700;
+}
+.media img{
+    width: 20px;
+}
+.colorEffect, .four a{
+    color: #e7332b;
+    font-weight: 400;
+}
+.address, .four a{
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem 5rem;
+    border-top:2px solid #dcdbdb ;
+    margin-inline: 9rem;
+}
+footer img{
+    width: 15px;
+}
+@media (max-width:1250px){
+    .mainPage{
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    .one,.two,.three, .four,footer{
+        padding-inline:1rem;
+    }
+}
+
+@media (max-width:1000px){
+    .mainPage{
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+    .one,.two,.three, .four,footer{
+        padding-inline:3rem;
+    }
+    .one{
+        width: 80%;
+    }
+    .two {
+        width: 100%;
+    }
+    .three{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:760px) {
+    body{
+        width: 100vw;
+    }
+    .mainPage{
+        padding-bottom: 3rem;
+        width: 100%;
+    }
+    .one,.two,.three, .four,footer{
+        padding-inline:1rem;
+    }
+    .one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 5rem;
+        width: 100%;
+        margin: 0;
+        margin-top: 4rem;
+        color: #614949;
+    }
+    .one h1{
+        font-size: 28px;
+    }
+    .one section{
+        flex-direction: column;
+    }
+    .two {
+        width: 100%;
+    }
+    .three{
+        flex-direction: column;
+    }
+    .four{
+        flex-direction: column;
+        gap: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+    footer{
+        margin-inline: 2rem;
+    }
+}
+
