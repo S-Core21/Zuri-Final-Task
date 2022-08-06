@@ -16,7 +16,8 @@ body{
     background-color: #fffcf4;
 }
 .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
-    padding-inline: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     color: #614949;
 }
 .nav{
@@ -375,7 +376,8 @@ margin-bottom: 3rem;
     margin-top: 4rem;
 }
 hr{
-    margin-inline: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 .seven{
     width: 90%;
@@ -488,7 +490,8 @@ hr{
     align-items: center;
     justify-content: center;
     border: 1px solid;
-    margin-inline: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding-top: 3rem;
     padding-bottom: 5rem;
     border-radius: 50px;
@@ -550,7 +553,8 @@ footer #socials img{
         gap: 3rem;
     }
     .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
-        padding-inline: 1rem;
+        padding-left: 1rem;
+        padding-left: 1rem;
     }
     .nav ul{
         display: none;
@@ -705,7 +709,8 @@ footer #socials img{
         width: 100%;
     }
     .nine{
-        margin-inline: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         margin-top: 3rem;
     }
     .nine h1{
@@ -746,7 +751,8 @@ footer #socials img{
         border-bottom-right-radius: 30px;
     }
     .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
-        padding-inline: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
     .one{
         flex-direction: column;
@@ -757,7 +763,8 @@ footer #socials img{
         display: flex;
         gap: 37rem;
         align-items: center;
-        padding-inline: 10rem;
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
     .persons{
         width: 800px;
