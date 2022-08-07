@@ -773,7 +773,6 @@ footer #socials img{
     .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
         padding-left: 1rem;
         padding-right: 1rem;
-        border: 1px solid;
     }
     .one{
         flex-direction: column;
