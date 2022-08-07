@@ -291,8 +291,18 @@ footer div{
         display: none;
     }
     .nav,.one, .two, .three,.four,footer{
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #hire{
+        background-color: #e7332b;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: 50px;
+        border-bottom-right-radius: 15px;
     }
     .one{
         flex-direction: column;

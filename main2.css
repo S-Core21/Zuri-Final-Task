@@ -320,7 +320,7 @@ margin-bottom: 3rem;
     transform: translateY(5px);
 }
 .five_right img{
-    width: 850px;
+    width: 750px;
 }
 .six{
     display: flex;
@@ -739,18 +739,24 @@ footer #socials img{
 }
 
 
-@media (max-width:1200px) and (min-width:761px){
+@media (max-width:1300px) and (min-width:761px){
     #logo1{
-        width: 250px;
+        width: 150px;
     }
     nav img{
         width: 50px;
         outline: 10px solid #e7332b;
     }
+    nav{
+        gap: 0rem;
+    }
+    nav ul{
+        gap: 1rem;
+    }
     nav span a{
         text-decoration: none;
         color: #fff;
-        padding: 10px 20px;
+        padding: 10px 10px;
         background-color: #e7332b;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
@@ -758,6 +764,7 @@ footer #socials img{
     .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
         padding-left: 1rem;
         padding-right: 1rem;
+        border: 1px solid;
     }
     .one{
         flex-direction: column;
@@ -768,8 +775,8 @@ footer #socials img{
         display: flex;
         gap: 37rem;
         align-items: center;
-        padding-left: 10rem;
-        padding-right: 10rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
     .persons{
         width: 800px;
@@ -821,6 +828,9 @@ footer #socials img{
         display: flex;
         justify-content: center;
     }
+    .five_right img{
+        width: 700px;
+    }
     .six h1{
         font-size: 30px;
         width: 100%;
@@ -840,6 +850,4 @@ footer #socials img{
     .six main div{
         width: 100%;
     }
-   
-    
 }
