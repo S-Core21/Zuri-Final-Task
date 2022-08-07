@@ -283,7 +283,7 @@ footer div{
     border-radius: 50%;
     margin-right: 5px;
 }
-@media (max-width:760px){
+@media (max-width:627px){
     .nav{
         padding-bottom: 1rem;
     }
@@ -366,7 +366,7 @@ footer div{
         gap: 1.5rem;
     }
 }
-@media (max-width:1200px) and (min-width:762px){
+@media (max-width:1200px) and (min-width:900px){
     .one{
         flex-direction: column;
         text-align: center;

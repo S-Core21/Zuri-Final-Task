@@ -6,7 +6,6 @@
 }
 body{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 5rem;
     position: relative;
@@ -44,6 +43,7 @@ nav ul{
     position: relative;
     top: 0;
     right: 0;
+    margin-right: 4rem;
 }
 nav a{
     text-decoration: none;
@@ -270,6 +270,7 @@ nav span a{
     background-repeat: no-repeat;
     background-position: left 3rem bottom 2rem;
     background-size: 100px;
+   
 }
 .five_left{
     display: flex;
@@ -547,17 +548,19 @@ footer #socials img{
     width: 15px;
 }
 
-@media (max-width:760px){
+@media (max-width:627px){
+ 
     body{
         width: 100%;
         gap: 3rem;
     }
     .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
         padding-left: 1rem;
-        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .nav ul{
         display: none;
+        margin-right: 0rem;
     }
     #logo1{
         width: 200px;
@@ -734,7 +737,9 @@ footer #socials img{
 
     }
 }
-@media (max-width:1200px) and (min-width:762px){
+
+
+@media (max-width:1200px) and (min-width:627px){
     #logo1{
         width: 250px;
     }
@@ -751,8 +756,8 @@ footer #socials img{
         border-bottom-right-radius: 30px;
     }
     .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .one{
         flex-direction: column;
