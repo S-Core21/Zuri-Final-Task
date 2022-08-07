@@ -22,24 +22,25 @@ body{
 .nav{
     padding-top: 1.5rem;
     display: flex;
+    width: 1600px;
     justify-content: space-between;
     align-items: center;
     background-color: #fffafa;
     padding-bottom: 1.5rem;
     position: fixed;
-    width: 100%;
     z-index: 9999;
+    top: 0;
 }
 nav{
     display: flex;
     font-size: 18px;
     align-items: center;
-    gap: 6rem;
+    gap: 2rem;
 }
 nav ul{
     display: flex;
     list-style: none;
-    gap: 4rem;
+    gap: 3rem;
     position: relative;
     top: 0;
     right: 0;
@@ -562,6 +563,10 @@ footer #socials img{
     .nav ul{
         display: none;
     }
+    .nav{
+        gap: 0;
+        width: 100%;
+    }
     #logo1{
         width: 200px;
     }
@@ -750,6 +755,10 @@ footer #socials img{
     nav{
         gap: 0rem;
     }
+    .nav{
+        gap: 0;
+        width: 100%;
+    }
     nav ul{
         gap: 1rem;
     }
@@ -849,5 +858,35 @@ footer #socials img{
     }
     .six main div{
         width: 100%;
+    }
+}
+@media (max-width:1590px) and (min-width:1301px){
+    nav{
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+        gap: 2rem;
+    }
+    .nav{
+        justify-content: flex-start;
+        gap: 25rem;
+    }
+    /* .nav div{
+        display: flex;
+        border: 1px solid;
+        width: 30%;
+    } */
+    #logo1{
+        width: 200px;
+       /* margin-right: auto; */
+    }
+    nav ul{
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-right: 2rem;
     }
 }
