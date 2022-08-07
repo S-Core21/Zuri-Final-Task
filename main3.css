@@ -283,7 +283,7 @@ footer div{
     border-radius: 50%;
     margin-right: 5px;
 }
-@media (max-width:627px){
+@media (max-width:760px){
     .nav{
         padding-bottom: 1rem;
     }
@@ -305,7 +305,7 @@ footer div{
         align-items: center;
     }
     .one img{
-        width: 500px;
+        width: 300px;
     }
     .two{
         flex-direction: column;
@@ -313,6 +313,12 @@ footer div{
     .two header{
         text-align: center;
         align-items: center;
+    }
+    .two main img{
+        width: 350px;
+    }
+    .two header img{
+        width: 40px;
     }
     .three ul{
         flex-direction: column;
@@ -366,7 +372,7 @@ footer div{
         gap: 1.5rem;
     }
 }
-@media (max-width:1200px) and (min-width:900px){
+@media (max-width:1200px) and (min-width:762px){
     .one{
         flex-direction: column;
         text-align: center;

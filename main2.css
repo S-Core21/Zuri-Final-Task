@@ -548,11 +548,12 @@ footer #socials img{
     width: 15px;
 }
 
-@media (max-width:627px){
+@media (max-width:760px){
  
     body{
         width: 100%;
         gap: 3rem;
+        overflow-x: hidden;
     }
     .nav,.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,footer{
         padding-left: 1rem;
@@ -560,25 +561,24 @@ footer #socials img{
     }
     .nav ul{
         display: none;
-        margin-right: 0rem;
     }
     #logo1{
         width: 200px;
     }
     nav img{
-        width: 40px;
+        width: 20px;
         outline: 10px solid #e7332b;
     }
     nav span a{
         text-decoration: none;
         color: #fff;
-        padding: 10px 20px;
+        padding: 5px 10px;
         background-color: #e7332b;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
     }
     .persons{
-        width: 450px;
+        width: 400px;
     }
     .one{
         flex-direction: column;
@@ -638,7 +638,7 @@ footer #socials img{
         flex-direction: column;
     }
     .five_right img{
-        width: 450px;
+        width: 350px;
     }
     .five_left h1{
         font-size: 30px;
@@ -739,7 +739,7 @@ footer #socials img{
 }
 
 
-@media (max-width:1200px) and (min-width:627px){
+@media (max-width:1200px) and (min-width:761px){
     #logo1{
         width: 250px;
     }
