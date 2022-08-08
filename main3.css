@@ -411,24 +411,66 @@ footer div{
     }
 }
 @media (max-width:1200px) and (min-width:762px){
+    .nav{
+        padding-bottom: 1rem;
+        gap: 0;
+        width: 100%;
+    }
+    .nav,.one, .two, .three,.four,footer{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .nav img{
+        padding-left: 4rem;
+    }
+    .nav ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        padding-right: 1rem;
+    }
+    #hire{
+        background-color: #e7332b;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: auto;
+        border-bottom-right-radius: 15px;
+
+    }
     .one{
         flex-direction: column;
+        align-items: center;
         text-align: center;
         margin-top: 11rem;
         gap: 4rem;
     }
     .one header{
         gap: 2rem;
-        width: 85%;
+        width: 100%;
         align-items: center;
     }
+    .one main{
+        justify-content: center;
+    }
     .one img{
-        width: 800px;
+        width: 600px;
+    }
+    .two{
+        flex-direction: column-reverse;
     }
     .two header{
         width: 80%;
+        text-align: center;
+        align-items: center;
     }
     .three h1{
         width: 100%;
+        font-size: 28px;
+    }
+    .three main ul{
+        flex-direction: column;
     }
 }
